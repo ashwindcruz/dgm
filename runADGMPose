@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Increasing number of samples in each for loop
+
+#
+
+#samples=(1 2 5)
+
+
+for i in `seq 1 3`;
+do
+#for j in "${samples[@]}"
+#do 	
+./train.py -g 0 -o 'run_'$i --model-type adgm --vae-samples 1 --ntrans 1 --nlatent 16 --nhidden 512 --nlayers 4\
+ -b 16384 --batch-limit 1000 -t 1000000 --time-print 600 --epoch-sample 100 --log-interval 5 --data pose\
+ --init-temp 0 --temp-epoch 200  --init-learn 1e-4 --learn-decay 3e-3 --weight-decay 0 --init-model none 
+#done
+done

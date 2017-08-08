@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python ./train.py -g 0 -o vae_01_0_degrees  -b 8192 -t 10800 --nhidden 256 --time-print 3600 --time-sample 1800 --vae-samples 1 --test 70000 --log-interval 100 --house-degree 0  ../data/MSRC12-X-d60.mat
+python ./train.py -g 0 -o vae_01_1_degrees  -b 8192 -t 10800 --nhidden 256 --time-print 3600 --time-sample 1800 --vae-samples 1 --test 70000 --log-interval 100 --house-degree 1  ../data/MSRC12-X-d60.mat 
+python ./train.py -g 0 -o vae_01_10_degrees -b 8192 -t 10800 --nhidden 256 --time-print 3600 --time-sample 1800 --vae-samples 1 --test 70000 --log-interval 100 --house-degree 10 ../data/MSRC12-X-d60.mat
+
+
+
