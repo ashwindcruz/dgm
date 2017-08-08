@@ -22,11 +22,11 @@ arXiv preprint [arXiv:1606.04934](https://arxiv.org/abs/1606.04934).
 arXiv preprint [arXiv:1505.05770](https://arxiv.org/abs/1505.05770).
 
 ### Variational Autoencoder (VAE) 
-- _Diederik P. Kingma_, and _Max Welling_. "Auto-encoding variational bayes."
-  arXiv preprint [arXiv:1312.6114](http://arxiv.org/abs/1312.6114) (2013).
-- _Danilo Jimenez Rezende_, _Shakir Mohamed_, and _Daan Wierstra_. "Stochastic
-  backpropagation and approximate inference in deep generative models."
-  arXiv preprint [arXiv:1401.4082](http://arxiv.org/abs/1401.4082) (2014).
+- _Diederik P. Kingma_, and _Max Welling_, 2013. Auto-encoding variational bayes.
+  arXiv preprint [arXiv:1312.6114](http://arxiv.org/abs/1312.6114).
+- _Danilo Jimenez Rezende_, _Shakir Mohamed_, and _Daan Wierstra_, 2014. Stochastic
+  backpropagation and approximate inference in deep generative models.
+  arXiv preprint [arXiv:1401.4082](http://arxiv.org/abs/1401.4082).
 
 ## Data
 The data used for experimentation is not supplied in this repo at this time but can be made available upon requests.
