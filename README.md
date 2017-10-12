@@ -1,5 +1,6 @@
 # Deep Generative Models
 This repo contains implementations of several recent deep generative models using the Python framework, Chainer.
+This code was developed to support the disseration laid out in *dissertation.pdf*.
 
 ### Auxiliary Deep Generative Models (ADGMs) and Skip Deep Generative Models (SDGMs)
 - _Maaløe, L._, _Sønderby, C.K._, _Sønderby, S.K._ and _Winther, O._, 2016. Auxiliary deep generative models. 
